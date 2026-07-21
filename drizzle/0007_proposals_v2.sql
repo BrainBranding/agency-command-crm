@@ -1,0 +1,17 @@
+ALTER TABLE `proposals` ADD `summary` text DEFAULT '' NOT NULL;
+ALTER TABLE `proposals` ADD `objective` text DEFAULT '' NOT NULL;
+ALTER TABLE `proposals` ADD `deliverables` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `schedule` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `client_responsibilities` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `assumptions` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `exclusions` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `kpis` text DEFAULT '[]' NOT NULL;
+ALTER TABLE `proposals` ADD `setup_fee` integer DEFAULT 0 NOT NULL;
+ALTER TABLE `proposals` ADD `ad_spend` integer DEFAULT 0 NOT NULL;
+ALTER TABLE `proposals` ADD `currency` text DEFAULT 'GBP' NOT NULL;
+ALTER TABLE `proposals` ADD `term_months` integer DEFAULT 3 NOT NULL;
+ALTER TABLE `proposals` ADD `valid_until` text DEFAULT '' NOT NULL;
+ALTER TABLE `proposals` ADD `sent_at` text;
+ALTER TABLE `proposals` ADD `accepted_at` text;
+ALTER TABLE `proposals` ADD `accepted_by` text;
+ALTER TABLE `proposals` ADD `acceptance_note` text;
