@@ -15,7 +15,7 @@
     {
       "binding": "DB",
       "database_name": "agency-command-crm",
-      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "database_id": "77baff32-77c0-43df-b3d8-a12568345dda",
       "migrations_dir": "drizzle"
     }
   ]
